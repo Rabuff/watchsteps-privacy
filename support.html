@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Support – Watch Steps</title>
+<style>
+  :root {
+    --bg: #f7f7f5; --card: #ffffff; --border: #e5e4e0;
+    --text: #1a1b1f; --muted: #6b6d74; --accent: #2f6fed;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #16171b; --card: #1e2025; --border: #2b2d33; --text: #eef0f3; --muted: #9a9ca3; --accent: #6c9bff; }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--text);
+    font-family: -apple-system, "SF Pro Text", "Segoe UI", system-ui, sans-serif;
+    line-height: 1.6;
+  }
+  .page { max-width: 720px; margin: 0 auto; padding: 56px 24px 80px; }
+  h1 { font-size: 28px; font-weight: 700; letter-spacing: -0.01em; margin: 0 0 6px; }
+  .sub { color: var(--muted); font-size: 16px; margin: 0 0 40px; }
+  h2 { font-size: 18px; font-weight: 650; margin: 32px 0 8px; }
+  p { font-size: 16px; }
+  a { color: var(--accent); }
+  .faq { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 4px 20px; margin: 16px 0; }
+  .faq details { padding: 14px 0; border-bottom: 1px solid var(--border); }
+  .faq details:last-child { border-bottom: none; }
+  .faq summary { font-weight: 600; cursor: pointer; }
+  .faq p { margin: 10px 0 4px; color: var(--muted); }
+  .contact {
+    background: var(--card); border: 1px solid var(--border); border-radius: 12px;
+    padding: 20px; margin-top: 32px;
+  }
+  footer { margin-top: 48px; color: var(--muted); font-size: 14px; }
+</style>
+</head>
+<body>
+<div class="page">
+  <h1>Support</h1>
+  <p class="sub">Hilfe zu Watch Steps — Schritte, Strecke, Kalorien und Bewegung für iPhone und Apple Watch.</p>
+
+  <h2>Häufige Fragen</h2>
+  <div class="faq">
+    <details>
+      <summary>Ich sehe keine Daten in der App</summary>
+      <p>Öffne auf dem iPhone Watch Steps und erlaube unter "Zugriff erlauben" den Lesezugriff auf Apple
+      Health. Prüfe zusätzlich unter Einstellungen → Datenschutz &amp; Sicherheit → Health → Watch Steps,
+      ob Schritte, Strecke, aktive Energie und Trainingsminuten aktiviert sind.</p>
+    </details>
+    <details>
+      <summary>Wie ändere ich mein Tagesziel?</summary>
+      <p>Tippe in der App oben rechts auf das Zahnrad-Symbol und stelle dein tägliches Schrittziel ein.</p>
+    </details>
+    <details>
+      <summary>Wie sehe ich vergangene Tage, Wochen, Monate oder Jahre?</summary>
+      <p>Wische im Diagramm nach links oder rechts, nutze die Pfeile neben dem Datum, oder tippe auf das
+      Datum, um direkt ein bestimmtes Datum über den Kalender auszuwählen.</p>
+    </details>
+    <details>
+      <summary>Wie bekomme ich die Komplikation auf mein Zifferblatt?</summary>
+      <p>Auf der Apple Watch das Zifferblatt lange gedrückt halten → Bearbeiten → zu einem
+      Komplikations-Feld navigieren → "Watch Steps" auswählen. Es stehen mehrere Größen zur Auswahl.</p>
+    </details>
+    <details>
+      <summary>Warum aktualisiert sich die Komplikation nicht sofort?</summary>
+      <p>Die Watch liest Schritte eigenständig aus HealthKit und aktualisiert die Komplikation automatisch
+      im Hintergrund. Aus Batteriegründen erlaubt watchOS dafür nur eine begrenzte Anzahl an Aktualisierungen
+      pro Stunde — das ist eine Systemgrenze, keine Einstellung der App. Beim Öffnen der Watch-App selbst
+      siehst du immer den aktuellen Stand.</p>
+    </details>
+    <details>
+      <summary>Was macht der Button "Unterstütze mich"?</summary>
+      <p>Das ist eine rein freiwillige, optionale Spende über Apples In-App-Käufe. Sie schaltet keine
+      Funktionen frei und ist an keiner Stelle Voraussetzung für die Nutzung der App.</p>
+    </details>
+  </div>
+
+  <div class="contact">
+    <strong>Weitere Fragen?</strong><br>
+    Schreib mir direkt: <a href="mailto:kardun@gmx.net">kardun@gmx.net</a>
+  </div>
+
+  <footer>&larr; <a href="privacy.html">Zur Datenschutzerklärung</a></footer>
+</div>
+</body>
+</html>
